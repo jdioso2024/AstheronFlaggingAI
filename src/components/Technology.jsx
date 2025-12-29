@@ -15,7 +15,7 @@ const Technology = () => {
                     {/* Step 1 */}
                     <div className="flex flex-col gap-6">
                         <div className="min-h-[360px] h-auto bg-[#161b22] border border-[#283039] rounded-xl p-4 overflow-hidden relative group hover:border-blue-500/30 transition-colors">
-                            <div className="absolute inset-0 bg-gradient-to-t from-[#161b22] to-transparent pointer-events-none"></div>
+                            <div className="absolute inset-0 from-[#161b22] to-transparent pointer-events-none"></div>
 
                             <div className="bg-[#0f1318] rounded-lg border border-[#283039] p-4 h-full flex flex-col justify-center items-center">
                                 <div className="w-full max-w-[240px] bg-[#1c2127] rounded border border-[#2d353b] p-3 shadow-lg">
