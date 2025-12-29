@@ -14,7 +14,7 @@ const Technology = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Step 1 */}
                     <div className="flex flex-col gap-6">
-                        <div className="min-h-[280px] h-auto bg-[#161b22] border border-[#283039] rounded-xl p-4 overflow-hidden relative group hover:border-blue-500/30 transition-colors">
+                        <div className="min-h-[360px] h-auto bg-[#161b22] border border-[#283039] rounded-xl p-4 overflow-hidden relative group hover:border-blue-500/30 transition-colors">
                             <div className="absolute inset-0 bg-gradient-to-t from-[#161b22] to-transparent pointer-events-none"></div>
 
                             <div className="bg-[#0f1318] rounded-lg border border-[#283039] p-4 h-full flex flex-col justify-center items-center">
@@ -47,7 +47,7 @@ const Technology = () => {
 
                     {/* Step 2 */}
                     <div className="flex flex-col gap-6">
-                        <div className="min-h-[280px] h-auto bg-[#161b22] border border-[#283039] rounded-xl p-4 overflow-hidden relative group hover:border-blue-500/30 transition-colors">
+                        <div className="min-h-[360px] h-auto bg-[#161b22] border border-[#283039] rounded-xl p-4 overflow-hidden relative group hover:border-blue-500/30 transition-colors">
                             <div className="bg-[#0f1318] rounded-lg border border-[#283039] p-4 h-full flex flex-col justify-center items-center relative">
                                 <div className="flex flex-wrap gap-2 justify-center w-full px-2 mb-8">
                                     <span className="px-2 py-1 text-xs rounded border border-red-500/30 bg-red-500/10 text-red-400">🏆𝗔-𝗝-𝗥-𝟴-𝟴🏆</span>
@@ -90,7 +90,7 @@ const Technology = () => {
 
                     {/* Step 3 */}
                     <div className="flex flex-col gap-6">
-                        <div className="min-h-[280px] h-auto bg-[#161b22] border border-[#283039] rounded-xl p-4 overflow-hidden relative group hover:border-blue-500/30 transition-colors">
+                        <div className="min-h-[360px] h-auto bg-[#161b22] border border-[#283039] rounded-xl p-4 overflow-hidden relative group hover:border-blue-500/30 transition-colors">
                             <div className="bg-[#0f1318] rounded-lg border border-[#283039] p-4 h-full flex flex-col justify-center font-mono text-[10px] md:text-xs">
                                 <div className="text-slate-500 mb-2">response.json</div>
                                 <div className="text-slate-300">
