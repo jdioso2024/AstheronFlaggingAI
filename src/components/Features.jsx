@@ -33,7 +33,7 @@ const Features = () => {
                                     <h4 className="text-white font-semibold text-sm flex-1">Scenario: Viral Comment Section</h4>
                                     <span className="text-[10px] font-bold text-slate-500 tracking-wider border border-slate-700 px-2 py-0.5 rounded shrink-0">FAILED</span>
                                 </div>
-                                <p className="text-slate-500 text-xs mb-4">"A controversial post gets 5,000 comments in 10 minutes at 2 AM."</p>
+                                <p className="text-slate-500 text-xs mb-4">"A controversial post gets 5,000 gambling comments in 10 minutes at 2 AM."</p>
                                 <div className="bg-black/40 rounded-lg p-3 flex items-center gap-3 text-slate-400 text-xs font-medium border border-white/5">
                                     <span className="material-symbols-outlined text-[16px]">hourglass_empty</span>
                                     Review queue: 4+ hours backlog.
@@ -46,7 +46,7 @@ const Features = () => {
                                     <h4 className="text-white font-semibold text-sm flex-1">Scenario: Live Stream Raid</h4>
                                     <span className="text-[10px] font-bold text-slate-500 tracking-wider border border-slate-700 px-2 py-0.5 rounded shrink-0">OVERWHELMED</span>
                                 </div>
-                                <p className="text-slate-500 text-xs mb-4">"Trolls coordinate a sudden spam attack on a creator's live chat."</p>
+                                <p className="text-slate-500 text-xs mb-4">"Buzzer coordinate a sudden spam attack on a creator's donation chat."</p>
                                 <div className="bg-black/40 rounded-lg p-3 flex items-center gap-3 text-slate-400 text-xs font-medium border border-white/5">
                                     <span className="material-symbols-outlined text-[16px]">visibility_off</span>
                                     Mods can't keep up. Streamer stops broadcast.
@@ -56,13 +56,13 @@ const Features = () => {
                             {/* Scenario 3 */}
                             <div className="bg-[#161b22] rounded-xl p-5 border border-white/5">
                                 <div className="flex justify-between items-start gap-4 mb-2">
-                                    <h4 className="text-white font-semibold text-sm flex-1">Scenario: Contextual Harassment</h4>
+                                    <h4 className="text-white font-semibold text-sm flex-1">Scenario: Gambling Domain Proliferation</h4>
                                     <span className="text-[10px] font-bold text-slate-500 tracking-wider border border-slate-700 px-2 py-0.5 rounded shrink-0">MISSED</span>
                                 </div>
-                                <p className="text-slate-500 text-xs mb-4">"Bullying that uses specific slang or subtle sarcasm to evade filters."</p>
+                                <p className="text-slate-500 text-xs mb-4">"Gambling networks deploy hundreds of temporary sites with identical layouts but different domain names."</p>
                                 <div className="bg-black/40 rounded-lg p-3 flex items-center gap-3 text-slate-400 text-xs font-medium border border-white/5">
                                     <span className="material-symbols-outlined text-[16px]">error</span>
-                                    Human misses cultural context. False negative.
+                                    Blacklists are always one step behind. Humans cannot manually verify thousands of new URLs in real-time
                                 </div>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ const Features = () => {
                                 <span className="material-symbols-outlined">smart_toy</span>
                             </div>
                             <div>
-                                <h3 className="text-2xl font-bold text-white">Cognitive AI</h3>
+                                <h3 className="text-2xl font-bold text-white">Flagging AI</h3>
                                 <p className="text-slate-200">Automated protection</p>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ const Features = () => {
                                     <h4 className="text-white font-semibold text-sm flex-1">Scenario: Viral Comment Section</h4>
                                     <span className="text-[10px] font-bold text-white tracking-wider border border-white/30 px-2 py-0.5 rounded shrink-0">SOLVED</span>
                                 </div>
-                                <p className="text-slate-400 text-xs mb-4">"A controversial post gets 5,000 comments in 10 minutes at 2 AM."</p>
+                                <p className="text-slate-400 text-xs mb-4">"A controversial post gets 5,000 gambling comments in 10 minutes at 2 AM."</p>
                                 <div className="bg-white/10 rounded-lg p-3 flex items-center gap-3 text-white text-xs font-medium border border-white/10">
                                     <span className="material-symbols-outlined text-[16px]">bolt</span>
                                     Auto-scales instantly. 100% screened pre-publish.
@@ -104,7 +104,7 @@ const Features = () => {
                                     <h4 className="text-white font-semibold text-sm flex-1">Scenario: Live Stream Raid</h4>
                                     <span className="text-[10px] font-bold text-white tracking-wider border border-white/30 px-2 py-0.5 rounded shrink-0">SOLVED</span>
                                 </div>
-                                <p className="text-slate-400 text-xs mb-4">"Trolls coordinate a sudden spam attack on a creator's live chat."</p>
+                                <p className="text-slate-400 text-xs mb-4">"Buzzer coordinate a sudden spam attack on a creator's donation chat."</p>
                                 <div className="bg-white/10 rounded-lg p-3 flex items-center gap-3 text-white text-xs font-medium border border-white/10">
                                     <span className="material-symbols-outlined text-[16px]">shield</span>
                                     Pattern recognition blocks repeat offenders in ms.
@@ -114,13 +114,13 @@ const Features = () => {
                             {/* Scenario 3 */}
                             <div className="bg-[#161b22] rounded-xl p-5 border border-white/20 shadow-lg shadow-black/40">
                                 <div className="flex justify-between items-start gap-4 mb-2">
-                                    <h4 className="text-white font-semibold text-sm flex-1">Scenario: Contextual Harassment</h4>
+                                    <h4 className="text-white font-semibold text-sm flex-1">Scenario: Gambling Domain Proliferation</h4>
                                     <span className="text-[10px] font-bold text-white tracking-wider border border-white/30 px-2 py-0.5 rounded shrink-0">SOLVED</span>
                                 </div>
-                                <p className="text-slate-400 text-xs mb-4">"Bullying that uses specific slang or subtle sarcasm to evade filters."</p>
+                                <p className="text-slate-400 text-xs mb-4">"Gambling networks deploy hundreds of temporary sites with identical layouts but different domain names."</p>
                                 <div className="bg-white/10 rounded-lg p-3 flex items-center gap-3 text-white text-xs font-medium border border-white/10">
                                     <span className="material-symbols-outlined text-[16px]">psychology</span>
-                                    LLM understands intent & nuance. Flagged correctly.
+                                    AI recognizes patterns in site structure to block entire gambling networks in milliseconds.
                                 </div>
                             </div>
                         </div>

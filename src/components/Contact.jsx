@@ -16,9 +16,7 @@ const Contact = () => {
                         <button className="w-full sm:w-auto px-8 py-4 rounded-lg bg-white text-black font-bold text-lg hover:bg-slate-200 transition-all shadow-lg shadow-white/10">
                             Contact Sales
                         </button>
-                        <button className="w-full sm:w-auto px-8 py-4 rounded-lg border border-[#3b4754] text-white font-bold text-lg hover:bg-[#283039] transition-all">
-                            Partner Program
-                        </button>
+
                     </div>
 
                     <div className="mt-16 pt-10 border-t border-[#283039]">

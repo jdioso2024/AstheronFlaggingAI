@@ -22,7 +22,7 @@ const Header = () => {
                 <nav className="hidden md:flex items-center gap-8">
                     {[
                         { name: 'Advantages', href: '#features' },
-                        { name: 'Technology', href: '#how-it-works' },
+                        { name: 'Technology', href: '#technology' },
                         { name: 'Pricing', href: '#pricing' }
                     ].map((item) => (
                         <a
