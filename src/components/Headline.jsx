@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hero = () => {
+const Headline = () => {
     return (
         <section className="relative flex flex-col items-center justify-center px-6 py-24 lg:py-40 overflow-hidden bg-background-dark">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-white/5 rounded-full blur-[120px] pointer-events-none opacity-50"></div>
@@ -49,4 +49,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default Headline;
