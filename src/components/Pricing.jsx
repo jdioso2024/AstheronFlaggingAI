@@ -12,28 +12,25 @@ const Pricing = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full mb-12">
                     {/* Cognitive Text Card */}
                     <div className="flex flex-col p-8 rounded-2xl border border-[#283039] bg-[#1c2127] relative hover:border-primary/50 transition-colors z-10">
-                        <h3 className="text-xl font-bold text-white">Cognitive Text</h3>
-                        <p className="text-slate-400 text-sm mt-2 mb-6">Optimized for reasoning, coding, and multilingual dialogue generation.</p>
-                        <div className="text-4xl font-bold text-white mb-6">$0.002<span className="text-lg font-normal text-slate-500">/ 1k tokens</span></div>
+                        <h3 className="text-xl font-bold text-white">AI Flagging</h3>
+                        <p className="text-slate-400 text-sm mt-2 mb-6">Gambling Promotion Detection</p>
+                        <div className="text-4xl font-bold text-white mb-6">Rp. 100<span className="text-lg font-normal text-slate-500">/Message</span></div>
                         <div className="h-px w-full bg-[#283039] mb-6"></div>
                         <ul className="flex flex-col gap-3 text-sm text-slate-300">
-                            {['128k Context Window', 'Function Calling & JSON', '90+ Languages Supported', 'Fine-tuning Available'].map((item, i) => (
+                            {['128k Context Window', 'Function Calling & JSON', 'Miliseconds Processing', 'Fine-tuning Available'].map((item, i) => (
                                 <li key={i} className="flex items-center gap-3"><span className="material-symbols-outlined text-primary text-[20px]">check</span> {item}</li>
                             ))}
                         </ul>
                     </div>
 
                     {/* Cognitive Vision Card */}
-                    <div className="flex flex-col p-8 rounded-2xl border border-[#283039] bg-[#1c2127] relative hover:border-primary/50 transition-colors z-10">
-                        <h3 className="text-xl font-bold text-white">Cognitive Vision</h3>
-                        <p className="text-slate-400 text-sm mt-2 mb-6">State-of-the-art computer vision for analysis and recognition tasks.</p>
-                        <div className="text-4xl font-bold text-white mb-6">$0.015<span className="text-lg font-normal text-slate-500">/ image</span></div>
+                    {/* Cognitive Vision Card */}
+                    <div className="flex flex-col p-8 rounded-2xl border border-[#283039] bg-[#1c2127]/50 relative z-10 opacity-60">
+                        <div className="absolute top-6 right-6 bg-slate-700 text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wider border border-slate-600">Coming Soon</div>
+                        <h3 className="text-xl font-bold text-white">COMING SOON</h3>
+                        <p className="text-slate-400 text-sm mt-2 mb-6">Work In Progress</p>
+                        <div className="text-4xl font-bold text-white mb-6 blur-[4px] select-none">Rp. XXX<span className="text-lg font-normal text-slate-500">/ image</span></div>
                         <div className="h-px w-full bg-[#283039] mb-6"></div>
-                        <ul className="flex flex-col gap-3 text-sm text-slate-300">
-                            {['Object Detection', 'OCR Text Extraction', 'Facial Analysis', 'Content Moderation'].map((item, i) => (
-                                <li key={i} className="flex items-center gap-3"><span className="material-symbols-outlined text-primary text-[20px]">check</span> {item}</li>
-                            ))}
-                        </ul>
                     </div>
                 </div>
 
