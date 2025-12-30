@@ -10,7 +10,7 @@ const Pricing = () => {
                 <p className="text-slate-400 text-center max-w-xl mb-16">Our models are available exclusively to partners. Review our pricing tiers below and reach out to begin your integration.</p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full mb-12">
-    
+
                     <div className="flex flex-col p-8 rounded-2xl border border-[#283039] bg-[#1c2127] relative hover:border-primary/50 transition-colors z-10">
                         <h3 className="text-xl font-bold text-white">AI Flagging</h3>
                         <p className="text-slate-400 text-sm mt-2 mb-6">Gambling Promotion Detection</p>
@@ -39,10 +39,10 @@ const Pricing = () => {
                         <h3 className="text-xl font-bold text-white mb-2">Ready to get started?</h3>
                         <p className="text-slate-400 text-sm">Connect with our sales team to request your API keys and discuss volume pricing for your enterprise.</p>
                     </div>
-                    <button className="whitespace-nowrap flex items-center gap-2 px-6 py-3 rounded-lg bg-white text-black font-bold hover:bg-slate-200 transition-colors shadow-lg shadow-white/10">
+                    <a href="https://wa.me/6281227031147" target="_blank" rel="noopener noreferrer" className="whitespace-nowrap flex items-center gap-2 px-6 py-3 rounded-lg bg-white text-black font-bold hover:bg-slate-200 transition-colors shadow-lg shadow-white/10">
                         Contact Sales
                         <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>

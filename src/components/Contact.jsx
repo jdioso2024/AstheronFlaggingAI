@@ -13,9 +13,9 @@ const Contact = () => {
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                        <button className="w-full sm:w-auto px-8 py-4 rounded-lg bg-white text-black font-bold text-lg hover:bg-slate-200 transition-all shadow-lg shadow-white/10">
+                        <a href="https://wa.me/6281227031147" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 rounded-lg bg-white text-black font-bold text-lg hover:bg-slate-200 transition-all shadow-lg shadow-white/10 flex items-center justify-center">
                             Contact Sales
-                        </button>
+                        </a>
 
                     </div>
 
