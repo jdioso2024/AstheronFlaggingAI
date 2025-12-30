@@ -27,7 +27,7 @@ const Headline = () => {
                         <span className="material-symbols-outlined text-[20px]">description</span>
                         Read Docs
                     </button>
-                    <a className="flex h-12 items-center justify-center rounded-lg bg-white px-8 text-base font-bold text-black hover:bg-slate-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.1)]" href="https://wa.me/#" target="_blank" rel="noopener noreferrer">
+                    <a className="flex h-12 items-center justify-center rounded-lg bg-white px-8 text-base font-bold text-black hover:bg-slate-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.1)]" href="https://wa.me/081227031147" target="_blank" rel="noopener noreferrer">
                         Contact Sales
                     </a>
                 </div>
