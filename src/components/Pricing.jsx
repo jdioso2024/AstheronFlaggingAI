@@ -39,7 +39,7 @@ const Pricing = () => {
                         <h3 className="text-xl font-bold text-white mb-2">Ready to get started?</h3>
                         <p className="text-slate-400 text-sm">Connect with our sales team to request your API keys and discuss volume pricing for your enterprise.</p>
                     </div>
-                    <a href="https://wa.me/081227031147" target="_blank" rel="noopener noreferrer" className="whitespace-nowrap flex items-center gap-2 px-6 py-3 rounded-lg bg-white text-black font-bold hover:bg-slate-200 transition-colors shadow-lg shadow-white/10">
+                    <a href="https://wa.me/6281227031147" target="_blank" rel="noopener noreferrer" className="whitespace-nowrap flex items-center gap-2 px-6 py-3 rounded-lg bg-white text-black font-bold hover:bg-slate-200 transition-colors shadow-lg shadow-white/10">
                         Contact Sales
                         <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
                     </a>
