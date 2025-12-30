@@ -17,7 +17,7 @@ const Pricing = () => {
                         <div className="text-4xl font-bold text-white mb-6">Rp. 100<span className="text-lg font-normal text-slate-500">/Message</span></div>
                         <div className="h-px w-full bg-[#283039] mb-6"></div>
                         <ul className="flex flex-col gap-3 text-sm text-slate-300">
-                            {['128k Context Window', 'Function Calling & JSON', 'Miliseconds Processing', 'Fine-tuning Available'].map((item, i) => (
+                            {['Large scale domain specific dataset', 'Function Calling & JSON', 'Miliseconds Processing', 'Continuously Improved Model'].map((item, i) => (
                                 <li key={i} className="flex items-center gap-3"><span className="material-symbols-outlined text-primary text-[20px]">check</span> {item}</li>
                             ))}
                         </ul>
