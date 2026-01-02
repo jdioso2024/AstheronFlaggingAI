@@ -20,7 +20,7 @@ const Contact = () => {
                     </div>
 
                     <div className="mt-16 pt-10 border-t border-[#283039]">
-                        <p className="text-sm font-medium text-slate-500 mb-8 uppercase tracking-widest">Trusted by industry innovators</p>
+                        <p className="text-sm font-medium text-slate-500 mb-8 uppercase tracking-widest">Trusted by Our Loyal Client</p>
                         <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-8">
                             {[
                                 { image: "/bagibagi.webp" }
