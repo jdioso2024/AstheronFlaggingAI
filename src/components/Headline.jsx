@@ -23,7 +23,7 @@ const Headline = () => {
                 </p>
 
                 <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
-                    <a href="/docs1.pdf" target="_blank" rel="noopener noreferrer" className="flex h-12 items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/5 px-8 text-base font-bold text-white hover:bg-white/10 hover:border-white/20 transition-all">
+                    <a href="/API-Documentation.pdf" target="_blank" rel="noopener noreferrer" className="flex h-12 items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/5 px-8 text-base font-bold text-white hover:bg-white/10 hover:border-white/20 transition-all">
                         <span className="material-symbols-outlined text-[20px]">description</span>
                         Read Docs
                     </a>
