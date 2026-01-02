@@ -23,10 +23,10 @@ const Headline = () => {
                 </p>
 
                 <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
-                    <button className="flex h-12 items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/5 px-8 text-base font-bold text-white hover:bg-white/10 hover:border-white/20 transition-all">
+                    <a href="/docs1.pdf" target="_blank" rel="noopener noreferrer" className="flex h-12 items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/5 px-8 text-base font-bold text-white hover:bg-white/10 hover:border-white/20 transition-all">
                         <span className="material-symbols-outlined text-[20px]">description</span>
                         Read Docs
-                    </button>
+                    </a>
                     <a className="flex h-12 items-center justify-center rounded-lg bg-white px-8 text-base font-bold text-black hover:bg-slate-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.1)]" href="https://wa.me/6281227031147" target="_blank" rel="noopener noreferrer">
                         Contact Sales
                     </a>
