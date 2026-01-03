@@ -10,12 +10,17 @@ const Footer = () => {
                             <img src="/logo4.png" alt="Astheron Logo" className="h-8 w-auto" />
                             <h2 className="text-2xl font-bold">Astheron</h2>
                         </div>
-                        <p className="text-slate-400 max-w-sm mb-6">
+                        <p className="text-slate-300 max-w-sm mb-6">
                             Empowering the spirit of innovation with integrity and precision, effectively enabling the future for our partners and the industries we serve.
                         </p>
                         <div className="flex gap-4">
                             {['code', 'alternate_email', 'forum'].map((icon, i) => (
-                                <a key={i} className="h-10 w-10 flex items-center justify-center rounded-full bg-[#1c2127] text-slate-400 hover:bg-white hover:text-black transition-all" href="#">
+                                <a
+                                    key={i}
+                                    className="h-10 w-10 flex items-center justify-center rounded-full bg-[#1c2127] text-slate-400 hover:bg-white hover:text-black transition-all"
+                                    href="#"
+                                    aria-label={`Social link ${icon}`}
+                                >
                                     <span className="material-symbols-outlined text-[20px]">{icon}</span>
                                 </a>
                             ))}
@@ -38,7 +43,7 @@ const Footer = () => {
                 </div>
 
                 <div className="border-t border-[#283039] pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className="text-slate-500 text-sm">© Astheron Technologies</p>
+                    <p className="text-slate-400 text-sm">© Astheron Technologies</p>
                 </div>
             </div>
         </footer>

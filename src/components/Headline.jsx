@@ -15,7 +15,7 @@ const Headline = () => {
                 </div>
 
                 <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-tight mb-8 text-white">
-                    Protect Your Community from <span className="text-slate-500">Gambling Intrusion</span>
+                    Protect Your Community from <span className="text-slate-400">Gambling Intrusion</span>
                 </h1>
 
                 <p className="text-slate-400 text-lg lg:text-2xl leading-relaxed max-w-[720px] mb-12">
@@ -32,14 +32,20 @@ const Headline = () => {
                     </a>
                 </div>
 
-                <div className="flex flex-col items-center gap-6 text-sm text-slate-500">
+                <div className="flex flex-col items-center gap-6 text-sm text-slate-400">
                     <p>Trusted by Our Loyal Client</p>
                     <div className="w-full flex flex-wrap justify-center items-center gap-x-12 gap-y-8 mt-8 max-w-[1000px]">
                         {[
                             { image: "/bagibagi.webp" },
                         ].map((company, index) => (
                             <div key={index} className="flex items-center gap-4 opacity-90 hover:opacity-100 transition-all duration-300 group cursor-default hover:scale-110">
-                                <img src={company.image} alt={company.name} className="h-12 w-auto grayscale group-hover:grayscale-0 transition-all duration-300" />
+                                <img
+                                    src={company.image}
+                                    alt="Client Logo"
+                                    width="120"
+                                    height="48"
+                                    className="h-12 w-auto grayscale group-hover:grayscale-0 transition-all duration-300"
+                                />
                             </div>
                         ))}
                     </div>

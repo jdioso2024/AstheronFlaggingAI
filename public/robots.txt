@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://astheronflag.pages.dev/sitemap.xml
